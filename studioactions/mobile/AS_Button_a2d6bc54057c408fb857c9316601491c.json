@@ -1,0 +1,28 @@
+{
+    "AS_Button_a2d6bc54057c408fb857c9316601491c": {
+        "id": "AS_Button_a2d6bc54057c408fb857c9316601491c",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmQR",
+            "type": "forms",
+            "platform": "",
+            "KUID": "bd679476596f45aa87d8301171f04593"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___g22f21c38f354ff7944fa67aa4790376",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onGenQRBtnClick",
+            "display": "onGenQRBtnClick",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}
